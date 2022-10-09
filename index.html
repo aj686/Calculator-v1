@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    
+    <title>Calculator</title>
+</head>
+<body>
+    
+  <div class="flex-container" style="background: rgb(168, 232, 237);">
+    <!-- CALCULATOR -->
+    <h2>Basic Calculator</h2>
+    <section class = "calculator">
+      <!-- SCREEN -->
+      <form>
+        <input type"text" class="screen">
+      </form>
+      
+      <!-- BUTTON -->
+      <div class="buttons">
+        
+        <!-- OPERATION MODE-->
+        <button type="button" class="btn btn-yellow" data-num="*">*</button>
+        <button type="button" class="btn btn-yellow" data-num="/">/</button>
+        <button type="button" class="btn btn-yellow" data-num="-">-</button>
+        <button type="button" class="btn btn-yellow" data-num="+">+</button>
+        
+        <!--NUMBER -->
+        <button type="button" class="btn btn-grey" data-num="9">9</button>
+        <button type="button" class="btn btn-grey" data-num="8">8</button>
+        <button type="button" class="btn btn-grey" data-num="7">7</button>
+        <button type="button" class="btn btn-grey" data-num="6">6</button>
+        <button type="button" class="btn btn-grey" data-num="5">5</button>
+        <button type="button" class="btn btn-grey" data-num="4">4</button>
+        <button type="button" class="btn btn-grey" data-num="3">3</button>
+        <button type="button" class="btn btn-grey" data-num="2">2</button>
+        <button type="button" class="btn btn-grey" data-num="1">1</button>
+        <button type="button" class="btn btn-grey" data-num="0">0</button>
+        <button type="button" class="btn btn-grey" data-num=".">.</button>
+        <!-- Topic: Using data attributes
+    
+        data- is a data attribute for javascript. It can be read/write-->
+        
+        <button type="button" class="btn-equal" data-num="=">=</button>
+        <button type="button" class="btn btn-clear" data-num=C.">C</button>
+        
+      </div>
+      
+      
+    </section>
+  </div>
+
+
+
+  <div class="flex-container">
+    <!-- CALCULATOR -->
+    <h2>BMI Calculator</h2>
+    <section class = "calculator">
+      <!-- SCREEN -->
+      <form>
+        <input type"text" class="screen">
+      </form>
+
+      <!--INPUT USER-->
+      <p style="color: #fff;">Weight(kg)</p>
+      <input type="text">
+
+      <p style="color: #fff;">Height(m)</p>
+      <input type="text">
+
+      <!-- BUTTON -->
+      <div class="buttons">
+        <button type="button" class="btn-equal" data-num="=">=</button>
+      </div>
+      
+      
+    </section>
+  </div>
+  
+
+  
+
+  
+  <script src="index.js"></script>
+  
+</body>
+</html>
