@@ -1,1 +1,7 @@
 Link learning -> https://www.youtube.com/watch?v=HQCLzqhiT2w&list=PL9bD98LkBR7P16BndaNtP4x6Wf5Ib85Hm
+
+
+How tagging to GitHub?
+- git tag -a v1.0 -m "first version"  
+- git tag --list
+- git push --tags
